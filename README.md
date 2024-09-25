@@ -1,4 +1,4 @@
 # Azure-CustomRole-for-NutanixCollector
 A simple way to create the Azure custom role for Nutanix Collector
 
-Step by Step guide is provided in the PDF in this repo
+[Full Step by Step guide to use Nutanix Collector with an Azure Subscription is provided in the PDF in this repo](https://github.com/squasta/Azure-CustomRole-for-NutanixCollector/blob/main/Nutanix-Collector-with-Azure-stepbystepguide.pdf)
