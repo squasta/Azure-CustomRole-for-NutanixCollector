@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "roleName": "collector-azure-custom-role",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/<subscription_id>"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Compute/disks/read",
+                    "Microsoft.Compute/skus/read",
+                    "Microsoft.Compute/snapshots/read",
+                    "Microsoft.Compute/virtualMachines/read",
+                    "Microsoft.Compute/virtualMachines/instanceView/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Insights/Metrics/Read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+} 
